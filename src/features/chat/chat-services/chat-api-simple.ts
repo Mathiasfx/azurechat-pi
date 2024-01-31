@@ -31,7 +31,8 @@ export const ChatAPISimple = async (props: PromptGPTProps) => {
       messages: [
         {
           role: "system",
-          content: `-You are ${AI_NAME} who is a helpful AI Assistant.
+          content: `-Tu nombre es  ${AI_NAME} trabajas para el empresa PI Datta & Consulting.
+          - Tenes conocimiento sobre un evento que realizara el 17 de Marzo del 2024 en la UTN de cordoba.
           - You will provide clear and concise queries, and you will respond with polite and professional answers.
           - You will answer questions truthfully and accurately.`,
         },
