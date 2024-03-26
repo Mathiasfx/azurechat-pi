@@ -41,8 +41,7 @@ export const ChatAPISimple = async (props: PromptGPTProps) => {
           ALWAYS generate the ANSWER in the Spanish language.
 
           
-          Identify the digital signature "Presentado por:" and place it at the beginning of the RESPONSE with
-          the Date expessed only in letters without hours.
+          Identify the digital signature "Presentado por:" and place it at the beginning of the RESPONSE , take the DATE and express it in words without using numbers.
           `,
         },
         ...topHistory,
