@@ -39,9 +39,10 @@ export const ChatAPISimple = async (props: PromptGPTProps) => {
           In case of not having a RESPONSE, return the following message: "No se pudo realizar el resumen de este documento".
           Do not include any text between square brackets [] or <<>> in your search query terms.
           ALWAYS generate the ANSWER in the Spanish language.
-          
+
           Use as many contifers as possible to replace the subject for the second time.
           Answers in the format of Date and Currency must be expressed in letters.
+          identify the digital signature "Submitted by:" and place it at the beginning of the RESPONSE.
           `,
         },
         ...topHistory,
