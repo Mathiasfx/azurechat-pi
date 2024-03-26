@@ -40,9 +40,8 @@ export const ChatAPISimple = async (props: PromptGPTProps) => {
           Do not include any text between square brackets [] or <<>> in your search query terms.
           ALWAYS generate the ANSWER in the Spanish language.
 
-          Use as many contifers as possible to replace the subject for the second time.
-          Answers in the format of Date and Currency must be expressed always in letters.
-          identify the digital signature "Presentado por:" and place it at the beginning of the RESPONSE with the Date expessed in letters without hours.
+          
+          Identify the digital signature "Presentado por:" and place it at the beginning of the RESPONSE with the Date expessed  with format day, year and month in letters without hours.
           `,
         },
         ...topHistory,
