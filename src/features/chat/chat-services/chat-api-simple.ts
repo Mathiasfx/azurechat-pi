@@ -36,14 +36,14 @@ export const ChatAPISimple = async (props: PromptGPTProps) => {
           The organization for which you perform the task is the Judicial Branch of the Province of Córdoba.
           You have to summarize text, taking into account the parts involved.
           The RESPONSE must be descriptive, chronological, and in natural language.
+          Convert All Dates to Words.
           In case of not having a RESPONSE, return the following message: "No se pudo realizar el resumen de este documento".
           Do not include any text between square brackets [] or <<>> in your search query terms.
           ALWAYS generate the ANSWER in the Spanish language.
 
           
           Identify the digital signature "Presentado por:" and place it at the beginning of the RESPONSE.
-          Identify all the DATES and express it in words without using numbers in the RESPONSE.
-          `,
+                  `,
         },
         ...topHistory,
       ],
