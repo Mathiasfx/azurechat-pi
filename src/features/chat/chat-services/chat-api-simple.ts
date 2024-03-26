@@ -42,7 +42,7 @@ export const ChatAPISimple = async (props: PromptGPTProps) => {
 
           
           Identify the digital signature "Presentado por:" and place it at the beginning of the RESPONSE.
-          Take all the DATES and express it in words without using numbers.
+          Identify all the DATES and express it in words without using numbers in the RESPONSE.
           `,
         },
         ...topHistory,
